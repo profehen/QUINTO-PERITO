@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Patrio - Colegio XYZ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Verdana', sans-serif;
+            background-color: #e3f2fd;
+            color: #212121;
+        }
+        header {
+            background-color: #ff9800;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff5722;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #d84315;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .event {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .event:hover {
+            transform: scale(1.05);
+        }
+        .event h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+            color: #ff5722;
+        }
+        .event p {
+            font-size: 1em;
+            color: #757575;
+        }
+        footer {
+            background-color: #ff9800;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Celebrando el Mes Patrio</h1>
+    <p>Colegio XYZ - Eventos de Septiembre 2024</p>
+</header>
+
+<nav>
+    <a href="#event1">Acto Cívico</a>
+    <a href="#event2">Desfile de Estudiantes</a>
+</nav>
+
+<section>
+    <div class="event" id="event1">
+        <h2>Acto Cívico</h2>
+        <p>El colegio te invita al acto cívico en honor a la independencia de Guatemala. ¡No te lo pierdas! 14 de Septiembre a las 9:00 AM en el auditorio.</p>
+    </div>
+
+    <div class="event" id="event2">
+        <h2>Desfile de Estudiantes</h2>
+        <p>El tradicional desfile se realizará el 15 de Septiembre, comenzando en el Parque Central a las 8:00 AM. Viste tus mejores colores patrios.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Colegio XYZ - Celebrando nuestra independencia</p>
+</footer>
+
+</body>
+</html>
